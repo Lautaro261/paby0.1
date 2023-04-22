@@ -1,6 +1,9 @@
 const SearchBar = () => {
     return (
-        <div>Esta es mi SearchBar</div>
+        <div>
+            <div>Esta es mi SearchBar</div>
+            <button>Buscar perro</button>
+        </div>
     );
 };
 
