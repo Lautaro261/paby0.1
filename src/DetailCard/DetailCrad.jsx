@@ -1,7 +1,10 @@
-import React from 'react'
+
 
 export default function DetailCrad() {
   return (
-    <div>DetailCrad</div>
+    <div>
+        <h1>aqui es un commit</h1>
+
+    </div>
   )
 }
