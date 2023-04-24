@@ -6,6 +6,7 @@ export default function Loading() {
       <h2>Loading...</h2>
       <h4>Cargando...</h4>
       <button>Enviar</button>
+      <button>Boton nuevo</button>
     </div>
   );
 }
