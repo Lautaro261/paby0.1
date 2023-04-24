@@ -1,8 +1,8 @@
-import "./loading.css";
+import "./pagination.css";
 
 export default function Loading() {
   return (
-    <div className="loading-container">
+    <div className="pagination-container">
       <h2>Loading...</h2>
       <h4>Cargando...</h4>
       <button>Enviar</button>
