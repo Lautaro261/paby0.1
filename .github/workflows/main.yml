@@ -1,0 +1,15 @@
+name: 'Auto Assign'
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  add-reviews:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Add reviewers and assignees'
+        uses: kentaro-m/auto-assign-action@v1.1.2
+        with:
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
+          reviewers: "Armando1509"
+          assignees: "Armando1509"
